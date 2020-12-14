@@ -1,0 +1,4 @@
+.leftbar {
+    grid-area: leftbar;
+    border: solid 1px blue;
+}

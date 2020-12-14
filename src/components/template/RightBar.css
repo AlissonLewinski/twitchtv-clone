@@ -1,0 +1,4 @@
+.rightbar {
+    grid-area: rightbar;
+    border: solid 1px black;
+}
