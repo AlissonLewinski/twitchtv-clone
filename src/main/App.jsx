@@ -6,6 +6,8 @@ import LeftBar from '../components/template/LeftBar'
 import MainContent from '../components/template/MainContent'
 import RightBar from '../components/template/RightBar'
 
+import '../config/fontawesomeConfig'
+
 export default props =>
     <div className="view">
         <div className="app">

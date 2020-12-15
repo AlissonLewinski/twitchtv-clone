@@ -1,4 +1,9 @@
 .leftbar {
     grid-area: leftbar;
-    border: solid 1px blue;
+    background-color: #1F1F23;
+}
+
+.leftbar-channels {
+    display: flex;
+    flex-direction: column;
 }

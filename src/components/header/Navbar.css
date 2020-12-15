@@ -1,3 +1,71 @@
 .navbar {
-    flex-grow: 1;
+    min-width: 33%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-icon svg {
+    fill: #A970FF;
+}
+
+@import url(//db.onlinewebfonts.com/c/6228016f2b172c06410f3a2356d33f6c?family=Roobert-Regular);
+
+.navbar a {
+    text-decoration: none;
+    color: #EFEFF1;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roobert-Regular";
+}
+
+.navbar nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link-container {
+    display: inline;
+    padding: 0 20px 5px 20px;
+}
+
+.navbar-divider {
+    display: inline-block;
+    background-color: rgb(71, 70, 70);
+    height: 30px;
+    width: 1px;
+}
+
+.header-icon {
+    color: white;
+    font-size: 18px;
+}
+
+.main-header-link a:hover {
+    color: #A970FF;
+}
+
+.header-ellipsis {
+    margin-top: 5px;
+    height: 35px;
+    width: 35px;
+    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-ellipsis:hover {
+    background-color: rgb(71, 69, 69);
+    cursor: pointer;
 }

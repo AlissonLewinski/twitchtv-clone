@@ -1,0 +1,80 @@
+.leftbar-channel {
+    width: 100%;
+    height: 45px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.leftbar-channel:hover {
+    background-color: #26262C;
+    cursor: pointer;
+}
+
+.leftbar-channel-img {
+    height: 100%;
+
+    padding: 0 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftbar-channel-img img {
+    height: 35px;
+    width: 35px;
+    border-radius: 200px;
+}
+
+.leftbar-channel-info {
+    flex-grow: 1;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leftbar-channel-info-name {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.leftbar-channel-info-game {
+    font-size: 13px;
+    color: #adadbb;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.leftbar-channel-status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 10px 12px 0 0;
+}
+
+.leftbar-channel-status-live-dot {
+    margin-right: 5px;
+
+    height: 8px;
+    width: 8px;
+
+    border-radius: 200px;
+
+    background-color: #E91916;
+}
+
+.leftbar-channel-status-viewers {
+    font-size: 13px;
+    color: #DEDEE3;
+}

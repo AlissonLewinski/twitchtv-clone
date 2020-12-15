@@ -6,8 +6,8 @@ import Search from '../header/Search'
 import UserActions from '../header/UserActions'
 
 export default props => 
-    <aside className="header">
+    <header className="header">
         <Navbar/>
         <Search/>
         <UserActions/>
-    </aside>
+    </header>

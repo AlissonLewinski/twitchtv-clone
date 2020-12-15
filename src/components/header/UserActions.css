@@ -1,4 +1,48 @@
+.user-actions-container {
+    min-width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .user-actions {
-    flex-grow: 1;
-    
+    color: white;
+}
+
+.user-actions-item {
+    display: inline;
+    margin: 0 13px 0 8px;
+}
+
+.user-actions-bits {
+    border-radius: 5px;
+    background-color: #3A3A3D;
+    padding: 7px 15px 7px 15px;
+}
+
+.user-actions-bits-label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+.user-actions-user {
+    background-color: #F62DCE;
+    border-radius: 200px;
+    padding: 8px 10px;
+    position: relative;
+}
+
+.user-actions-user-status {
+    background-color: rgb(46, 212, 46);
+    width: 10px;
+    height: 10px;
+
+    border: solid 2px #18181B;
+    border-radius: 200px;
+
+    bottom: 1px;
+    right: 0px;
+    position: absolute;
 }

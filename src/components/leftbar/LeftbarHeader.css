@@ -1,0 +1,23 @@
+.leftbar-header {
+    color: white;
+
+    margin: 10px;
+    padding-top: 7px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftbar-header-title {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.leftbar-header-arrow {
+    margin-right: 7px;
+
+    display: flex;
+    align-items: center;
+}
